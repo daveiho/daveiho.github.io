@@ -1,0 +1,148 @@
+ul {
+    list-style-type: none;
+}
+nav {
+    background: #424242;
+}
+
+nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+a.active {
+    border-radius: 0.15em;
+    background-color: #3d9949;
+    color: #eee;
+}
+
+li a {
+    color:#eee;
+}
+
+li a:hover {
+    /* color: #ed6000; */
+    color: #3d9949;
+}
+
+li a.active:hover {
+  color: #424242;
+}
+
+#collNavbar {
+    margin-left: 1rem;
+}
+
+#navbardrop {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+}
+
+#Home.active:hover {
+    color: #424242;
+}
+.navbar-brand {
+    color: #3d9949;
+}
+
+.navbar-brand:hover {
+    color: #ed6000;
+}
+
+section {
+    height: 67.5rem;
+}
+
+section#Home {
+    width: 100%;
+    padding-top: 3.6rem;
+    margin-top: 11rem;
+}
+
+#Home h1 {
+    width: 50%;
+    min-width: 35rem;
+    margin-left: 40%;
+    font-size: 3.8rem;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section#Services {
+    width: 100%;
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, Arial, serif;
+    background-color: #eee;
+    min-width: 80rem;
+}
+
+.serviceBeats {
+    margin-left: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: inline-flex;
+}
+
+.serviceSoundtrack {
+    margin-left: 6rem;
+    display: inline-flex;
+}
+
+#Services li {
+    list-style-type: none;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9rem;
+    /* background: #3d9949; */
+    background: linear-gradient(to bottom right, #3d9949, #fdff99);
+}
+
+#Services img {
+    width: 7rem;
+    height: 7rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+#Services h1 {
+    font-size: 2rem;
+    width: 28%;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+section#Portfolio {
+    width: 100%;
+    background: linear-gradient(to bottom right, #3d9949, #fdff99);
+}
+
+iframe { 
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+
+#contactList {
+    padding-top: 6rem;
+    min-width: 50rem;
+}
+
+#Contact li {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, Arial, serif;
+}
+
+#Contact a {
+    font-size: 2.1rem;
+    color: #3d9949;
+}
+
+#Contact a:hover {
+    font-size: 2.1rem;
+    color: #424242;
+    text-decoration: none;
+}
